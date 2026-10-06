@@ -7,8 +7,7 @@ cask "yonder" do
   desc "Voice front end for Claude Code"
   homepage "https://yonder.so"
 
-  auto_updates true
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Yonder.app"
 
